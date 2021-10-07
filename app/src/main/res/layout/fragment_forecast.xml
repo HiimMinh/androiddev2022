@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="Mon"
+            android:text="@string/Mon"
             android:paddingVertical="15dp"
             android:paddingHorizontal="25dp"
             android:textAlignment="center"
@@ -43,7 +43,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Partly Cloudy"
+                android:text="@string/PartlyCloudy"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -64,7 +64,7 @@
         <TextView
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="Tue"
+            android:text="@string/Tue"
             android:paddingVertical="15dp"
             android:paddingHorizontal="25dp"
             android:textAlignment="center"
@@ -89,7 +89,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Showers"
+                android:text="@string/Showers"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -109,7 +109,7 @@
         <TextView
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="Wed"
+            android:text="@string/Wed"
             android:paddingVertical="15dp"
             android:paddingHorizontal="25dp"
             android:textAlignment="center"
@@ -134,7 +134,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Rain"
+                android:text="@string/Rain"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -154,7 +154,7 @@
         <TextView
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="Thu"
+            android:text="@string/Thu"
             android:paddingVertical="15dp"
             android:paddingHorizontal="25dp"
             android:textAlignment="center"
@@ -179,7 +179,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Scattered Thunderstorms"
+                android:text="@string/ScatteredThunderstorms"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -199,7 +199,7 @@
         <TextView
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="Fri"
+            android:text="@string/Fri"
             android:paddingVertical="15dp"
             android:paddingHorizontal="25dp"
             android:textAlignment="center"
@@ -224,7 +224,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Mostly Cloudy"
+                android:text="@string/MostlyCloudy"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -244,7 +244,7 @@
         <TextView
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="Sat"
+            android:text="@string/Sat"
             android:paddingVertical="15dp"
             android:paddingHorizontal="25dp"
             android:textAlignment="center"
@@ -269,7 +269,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Partly Cloudy"
+                android:text="@string/PartlyCloudy"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -289,7 +289,7 @@
         <TextView
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="Sun"
+            android:text="@string/Sun"
             android:paddingVertical="15dp"
             android:paddingHorizontal="25dp"
             android:textAlignment="center"
@@ -314,7 +314,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Thunderstorms"
+                android:text="@string/Thunderstorms"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -334,7 +334,7 @@
         <TextView
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="Mon"
+            android:text="@string/Mon"
             android:paddingVertical="15dp"
             android:paddingHorizontal="25dp"
             android:textAlignment="center"
@@ -359,7 +359,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Scattered Thunderstorms"
+                android:text="@string/ScatteredThunderstorms"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -379,7 +379,7 @@
         <TextView
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="Tue"
+            android:text="@string/Tue"
             android:paddingVertical="15dp"
             android:paddingHorizontal="25dp"
             android:textAlignment="center"
@@ -404,7 +404,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Showers"
+                android:text="@string/Showers"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -424,7 +424,7 @@
         <TextView
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:text="Wed"
+            android:text="@string/Wed"
             android:paddingVertical="15dp"
             android:paddingHorizontal="25dp"
             android:textAlignment="center"
@@ -449,7 +449,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Scattered Thunderstorms"
+                android:text="@string/ScatteredThunderstorms"
                 />
             <TextView
                 android:layout_width="wrap_content"
