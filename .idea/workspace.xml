@@ -10,8 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8495378-f9f4-46ea-998c-aeac942c2913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/usthweather/WeatherFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_weather.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/usthweather/HomeFragmentPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/usthweather/WeatherAndForecastFragment1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/usthweather/WeatherAndForecastFragment2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/usthweather/WeatherAndForecastFragment3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_weather_and_forecast1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_weather_and_forecast2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_weather_and_forecast3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/usthweather/WeatherActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/usthweather/WeatherActivity.java" afterDir="false" />
@@ -27,6 +32,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,12 +58,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git_HiimMinh\androiddev2022\app\src\main\res\layout" />
       <recent name="C:\Git_HiimMinh\androiddev2022\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vn.edu.usth.usthweather" />
     </key>
   </component>
   <component name="RunManager">

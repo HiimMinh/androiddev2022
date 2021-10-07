@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -11,11 +12,19 @@ import android.util.Log;
 public class WeatherActivity extends AppCompatActivity {
 
     private static final String TAG = "Status";
+    ViewPager2 pager2;
+    HomeFragmentPagerAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        pager2 = findViewById(R.id.viewPager2);
+
+        FragmentManager fm = getSupportFragmentManager();
+        adapter = new HomeFragmentPagerAdapter(fm, getLifecycle());
+        pager2.setAdapter(adapter);
 
 //        FragmentManager fragment= getSupportFragmentManager();
 //        FragmentTransaction fragment_add = fragment.beginTransaction();
@@ -24,6 +33,9 @@ public class WeatherActivity extends AppCompatActivity {
 
         Log.d(TAG, "onCreate");
     }
+
+
+
 
     @Override
     protected void onRestart(){
