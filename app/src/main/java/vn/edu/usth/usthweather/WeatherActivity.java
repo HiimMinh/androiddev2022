@@ -17,10 +17,10 @@ public class WeatherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FragmentManager fragment= getSupportFragmentManager();
-        FragmentTransaction fragment_add = fragment.beginTransaction();
-        fragment_add.add(R.id.main, new ForecastFragment());
-        fragment_add.commit();
+//        FragmentManager fragment= getSupportFragmentManager();
+//        FragmentTransaction fragment_add = fragment.beginTransaction();
+//        fragment_add.add(R.id.main, new ForecastFragment());
+//        fragment_add.commit();
 
         Log.d(TAG, "onCreate");
     }

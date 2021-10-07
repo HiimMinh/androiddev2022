@@ -6,17 +6,26 @@
     android:layout_height="match_parent"
     android:id="@+id/main"
     tools:context=".WeatherActivity"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:padding="10dp">
 
-<!--    <fragment-->
-<!--        android:id="@+id/forecastFragment"-->
-<!--        class="vn.edu.usth.usthweather.ForecastFragment"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_weight="1"-->
-<!--        tools:layout="@layout/fragment_forecast">-->
+    <fragment
+        android:id="@+id/weatherFragment"
+        class="vn.edu.usth.usthweather.WeatherFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_weather">
+    </fragment>
 
-<!--    </fragment>-->
+    <fragment
+        android:id="@+id/forecastFragment"
+        class="vn.edu.usth.usthweather.ForecastFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_forecast">
+
+    </fragment>
 
 </LinearLayout>
